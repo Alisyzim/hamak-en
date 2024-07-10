@@ -10,18 +10,18 @@ const ProfileMenu = ({user, logout}) => {
         </Menu.Target>
         <Menu.Dropdown>
             <Menu.Item onClick={()=> navigate("./favourites", {replace: true})}>
-                المفضلة 
+            favourites
             </Menu.Item>
 
             <Menu.Item onClick={()=> navigate("./bookings", {replace: true})}>
-                الحجوزات
+            bookings
             </Menu.Item>
 
             <Menu.Item onClick={()=>{
                 localStorage.clear();
                 logout()
             }}>
-                تسجيل خروج
+                logout
             </Menu.Item>
         </Menu.Dropdown>
     </Menu>

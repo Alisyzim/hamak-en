@@ -29,14 +29,14 @@ const Value = () => {
 
         {/* right */}
         <div className="flexColStart v-right">
-          <span className="orangeText">العقارات الفارهة</span>
+          <span className="orangeText">Luxury real estate</span>
 
-          <span className="primaryText">القيمة التي نقدمها لك</span>
+          <span className="primaryText">The value we provide to you</span>
 
           <span className="secondaryText">
-          نحن دائماً جاهزون لتقديم افضل الخدمات لكم
+          We are always ready to provide you with the best services
             <br />
-            نحن نؤمن ان افضل مكان للسكن هو الاختيار الافضل للراحة 
+            We believe that the best place to live is the best choice for comfort
           </span>
 
           <Accordion
