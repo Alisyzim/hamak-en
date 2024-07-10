@@ -8,19 +8,19 @@ const Footer = () => {
         <div className="flexColStart f-left">
           <img src="./logo2.jpg" alt="" width={120} />
           <span className="secondaryText">
-            تطلعاتنا هي ايجاد الاشخاص <br />
-            افضل عقار يلبي طموحاتهم.
+Our aspirations are to find people<br />
+ The best property that meets their ambitions.
           </span>
         </div>
 
         <div className="flexColStart f-right">
-          <span className="primaryText">المعلومات</span>
-          <span className="secondaryText">145 دمشق, FL 5467, الجمهورية العربية السورية</span>
+          <span className="primaryText">Information</span>
+          <span className="secondaryText">145 Damascus, FL 5467, Syrian Arab Republic</span>
           <span className="secondarytext">Developed by ali zamzam</span>
           <div className="flexCenter f-menu">
-            <span>معروضات</span>
-            <span>خدمات</span>
-            <span>منتجات</span>
+            <span>Exhibits</span>
+            <span>Services</span>
+            <span>Products</span>
           </div>
         </div>
       </div>

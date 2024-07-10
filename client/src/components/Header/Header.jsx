@@ -42,19 +42,21 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <NavLink to="https://alisyzim.github.io/WEB-2.3v/">افتتاح قريب الق نظرة </NavLink>
-            
-            <NavLink to="/properties">المعروضات</NavLink>
+            <NavLink to="//">تفضل اللغة العربية ؟</NavLink>
 
-            <a href="ali0936781321@gmail.com">تواصل معنا</a>
+            <NavLink to="https://alisyzim.github.io/WEB-2.3v/">Opening soon take a look</NavLink>
+            
+            <NavLink to="/properties">Exhibits</NavLink>
+
+            <a href="ali0936781321@gmail.com">Contact us</a>
 
             {/* add property */}
-            <div onClick={handleAddPropertyClick}>قم باضافة عقار</div>
+            <div onClick={handleAddPropertyClick}>Add a property</div>
             <AddPropertyModal opened={modalOpened} setOpened={setModalOpened} />
             {/* login button */}
             {!isAuthenticated ? (
               <button className="button" onClick={loginWithRedirect}>
-                تسجيل دخول
+               Login
               </button>
             ) : (
               <ProfileMenu user={user} logout={logout} />

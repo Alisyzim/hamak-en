@@ -82,7 +82,7 @@ const AddPropertyModal = ({ opened, setOpened }) => {
             />
           </Stepper.Step>
           <Stepper.Completed>
-            تم الاكمال, اضغط على زر الرجوع للعودة للصفحة السابقة
+          Completed, click the return button to the previous page
           </Stepper.Completed>
         </Stepper>
       </Container>

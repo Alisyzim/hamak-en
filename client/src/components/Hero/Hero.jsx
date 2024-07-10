@@ -18,14 +18,14 @@ const Hero = () => {
               type: "ease-in",
             }}
             >
-              اكتشف <br />
-             اكثر العقارات
-              <br /> استقراراً
+              Discover <br />
+              More real estate
+              <br /> stable
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>جد العقار الذي يناسبك بسهولة شديدة</span>
-            <span>سوف تنسى جميع الصعوبات في ايجاد ما يناسبك</span>
+            <span>Find the property that suits you very easily</span>
+            <span>You will forget all the difficulties in finding what suits you</span>
           </div>
 
 
@@ -34,21 +34,21 @@ const Hero = () => {
               <span>
               <span>+</span><CountUp start={8800} end={9000} duration={4} />   
               </span>
-              <span className="secondaryText">عقارات عالية التقييم</span>
+              <span className="secondaryText">Highly rated properties</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
               <span>+</span><CountUp start={1950} end={2000} duration={4} />   
               </span>
-              <span className="secondaryText">العملاء الراضون</span>
+              <span className="secondaryText">Satisfied customers</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
               <span>+</span><CountUp end={28} />
               </span>
-              <span className="secondaryText">جوائز الموقع</span>
+              <span className="secondaryText">Site awards</span>
             </div>
           </div>
         </div>

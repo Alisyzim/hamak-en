@@ -9,10 +9,10 @@ const Contact = () => {
       <div className="paddings innerWidth flexCenter c-container">
         {/* left side */}
         <div className="flexColStart c-left">
-          <span className="orangeText">التواصل معنا</span>
-          <span className="primaryText">متاح بكل الطرق </span>
+          <span className="orangeText">Connect with us</span>
+          <span className="primaryText">Available in all ways</span>
           <span className="secondaryText">
-    نحن دائما جاهزون و مستعدون لاستقبال اقتراحاتكم ومشاكلكم لتحسن الخدمة نحو الافضل{" "}
+          We are always ready and ready to receive your suggestions and problems to improve the service for the better{" "}
           </span>
 
           <div className="flexColStart contactModes">
@@ -24,7 +24,7 @@ const Contact = () => {
                     <MdCall size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">  اتصل على الرقم</span>
+                    <span className="primaryText"> Call the number</span>
                     <span className="secondaryText">021 123 145 14</span>
                   </div>
                 </div>
@@ -37,11 +37,11 @@ const Contact = () => {
                     <BsFillChatDotsFill size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">تواصل عن طريق الواتس اب</span>
+                    <span className="primaryText">Communicate via WhatsApp</span>
                     <span className="secondaryText">021 123 145 14</span>
                   </div>
                 </div>
-                <div className="flexCenter button">تواصل الان</div>
+                <div className="flexCenter button">Call now</div>
               </div>
             </div>
 
@@ -53,11 +53,11 @@ const Contact = () => {
                     <HiChatBubbleBottomCenter size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">رسالة</span>
+                    <span className="primaryText">Message</span>
                     <span className="secondaryText">021 123 145 14</span>
                   </div>
                 </div>
-                <div className="flexCenter button">ارسل الان</div>
+                <div className="flexCenter button">Send now</div>
               </div>
             </div>
           </div>

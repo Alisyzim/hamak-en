@@ -21,9 +21,9 @@ const Facilities = ({
       bathrooms: propertyDetails.facilities.bathrooms,
     },
     validate: {
-      bedrooms: (value) => (value < 1 ? "يجب ان يوجد على الاقل غرفة واحدة" : null),
+      bedrooms: (value) => (value < 1 ? "There must be at least one room." : null),
       bathrooms: (value) =>
-        value < 1 ? "يجب وجود حمام واحد على الاقل" : null,
+        value < 1 ? "There must be at least one bathroom." : null,
     },
   });
 
